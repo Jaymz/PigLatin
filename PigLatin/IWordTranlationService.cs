@@ -1,5 +1,5 @@
 ﻿namespace PigLatin {
-    public interface IWordTranlationService {
+    public interface IWordTranslationService {
         string Translate(Word word);
     }
 }

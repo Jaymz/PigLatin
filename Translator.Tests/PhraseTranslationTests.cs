@@ -4,13 +4,13 @@ using PigLatin;
 namespace Translator.Tests {
     [TestFixture]
     public class PhraseTranslationTests {
-        private IWordTranlationService _wordTranslator;
+        private IWordTranslationService _wordTranslator;
         private IPhraseTranslationService _phraseTranslator;
 
         [SetUp]
         public void Setup()
         {
-            _wordTranslator = new WordTranlationService();
+            _wordTranslator = new WordTranslationService();
             _phraseTranslator = new PhraseTranslationService(_wordTranslator);
         }
 

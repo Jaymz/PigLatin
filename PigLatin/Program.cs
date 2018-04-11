@@ -3,7 +3,7 @@
 namespace PigLatin {
     class Program {
         static void Main(string[] args) {
-            var translator = new PhraseTranslationService(new WordTranlationService());
+            var translator = new PhraseTranslationService(new WordTranslationService());
 
             while (true) {
                 Console.Write("Enter input: ");

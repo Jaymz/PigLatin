@@ -2,8 +2,8 @@
 
 namespace PigLatin {
     public class PhraseTranslationService : IPhraseTranslationService {
-        private readonly IWordTranlationService _wordTranslator;
-        public PhraseTranslationService(IWordTranlationService wordTranslator) {
+        private readonly IWordTranslationService _wordTranslator;
+        public PhraseTranslationService(IWordTranslationService wordTranslator) {
             _wordTranslator = wordTranslator;
         }
 
